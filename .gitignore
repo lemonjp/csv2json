@@ -6,6 +6,10 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
+# prisma data dir
+test/**
+!test/**/.gitkeep
+
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
@@ -64,6 +68,8 @@ typings/
 
 # Output of 'npm pack'
 *.tgz
+
+*.swp
 
 # Yarn Integrity file
 .yarn-integrity
